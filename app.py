@@ -15,7 +15,7 @@ from mortality import MortalityBasis, mortality_metadata
 st.set_page_config(page_title="DB Pension ALM Engine", page_icon="📈", layout="wide")
 
 ROOT = Path(__file__).resolve().parent
-MORTALITY_FILE = ROOT / "2002_mortality_tables_single_lives.xlsx"
+MORTALITY_FILE = ROOT / "data" / "2002_mortality_tables_single_lives.xlsx"
 
 
 @st.cache_resource
